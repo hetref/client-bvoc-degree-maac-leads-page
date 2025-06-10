@@ -6804,6 +6804,10 @@ kbd {
   color: var(--black-color);
 }
 
+.brochure-preview-section {
+  background: var(--secondary-color);
+}
+
 @media (max-width: 767px) {
   /* Smaller font size for mobile */
   .software-card-title {
