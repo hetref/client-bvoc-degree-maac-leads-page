@@ -4073,6 +4073,9 @@ kbd {
 /*--------------------------------------------------------------
 16. About Content
 ----------------------------------------------------------------*/
+.about-the-program-section {
+  background: var(--secondary-color)
+}
 .about-us-content-bg {
   position: relative;
   background-color: var(--body-bg-color); /* Added dark background */
@@ -6806,6 +6809,13 @@ kbd {
 
 .brochure-preview-section {
   background: var(--secondary-color);
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 425px) {
+  .brochure-preview-section {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
