@@ -4385,6 +4385,7 @@ kbd {
   max-width: 307px;
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 .feature-card-two .feature-card-info .feature-title {
   /* margin-bottom: 30px; */
@@ -7203,4 +7204,8 @@ New "FAQ" Section Styles
   .thank_you p {
     font-size: 1rem;
   }
+}
+
+.course-content-section {
+  background-color: var(--secondary-color);
 }
