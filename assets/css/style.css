@@ -7051,6 +7051,18 @@ New "FAQ" Section Styles
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
+.faqImage {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .faqImage {
+    display: none;
+  }
+}
+
 /* Modal styles */
 .modal-overlay {
   position: fixed;
